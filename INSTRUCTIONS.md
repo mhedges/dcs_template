@@ -21,9 +21,17 @@ to write all IOCs to be run on a single PC.
     After compiling, you will need to add the necessary environment variables EPICS needs to work.
     - From top-directory of the template, run `source setup_dcs.sh`
 
-## Update your README!
+### Update your README!
     The README.md file will be copied word-for-word from the template repository. Update to something helpful for people
     browsing your code! Some instructions for this are included in [README.md](./README.md).
+
+### Start adding IOCs
+    You can start adding EPICS IOCs as subdirectories in the top level. This will contain your standard EPICS IOC
+    directory structure.
+
+### Add documentation
+    Detailed documentation for what your code does should live inside the `docs` folder. Standard markdown (`.md`) files
+    are recommended. Instructions and tips can (soon) be found in the `docs` folder.
 
 ## Optional settings
 ### Reflect upstream changes to template
