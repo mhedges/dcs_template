@@ -5,10 +5,10 @@ to write all IOCs to be run on a single PC.
 
 ## What's inside?
 The template comes with the following items:
-1. `epics-base` folder containing a checkout of EPICS base (currently v3.15.7).
-2. `docs` folder for putting documentation for your IOCs.
-3. `README.md` file to be adapted to describe your new repo.
-4. `setup_dcs.sh` file to setup environment variables
+- `epics-base` folder containing a checkout of EPICS base (currently v3.15.7).
+- `docs` folder for putting documentation for your IOCs.
+- `README.md` file to be adapted to describe your new repo.
+- `setup_dcs.sh` file to setup environment variables
 
 ## Getting Started
 ### Compiling EPICS
