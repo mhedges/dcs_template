@@ -21,4 +21,20 @@ to write all IOCs to be run on a single PC.
     After compiling, you will need to add the necessary environment variables EPICS needs to work.
     - From top-directory of the template, run `source setup_dcs.sh`
 
+## Update your README!
+    The README.md file will be copied word-for-word from the template repository. Update to something helpful for people
+    browsing your code! Some instructions for this are included in [README.md](./README.md).
+
+## Optional settings
+### Reflect upstream changes to template
+    The template is still in active development, although we hope it will be stable soon. If you wish to reflect the
+    changes made to the template in your local repository, do the following:
+    1. Run `git remote add upstream https://github.com/mhedges/dcs_template.git`
+    2. Run `git pull upstream master`
+    This will pull any changes that have been made to the upstream template into your local repository. It is not
+    expected that you will have to run this often, but the option is there should you hear of changes made to the
+    template that you want to pull in locally.
+
 ### More coming soon!
+    We're still developing this repo, so be on the lookout for tools for making `db` files, checking out EPICS device
+    drivers, and (hopefully) more!
